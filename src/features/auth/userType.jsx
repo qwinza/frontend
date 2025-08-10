@@ -10,7 +10,6 @@ export default function RegisterChoice() {
         </h2>
 
         <div className="flex flex-col md:flex-row gap-10 justify-center">
-          {/* User Umum */}
           <div className="w-auto min-w-[320px] flex flex-col bg-giGreen rounded-xl shadow-2xl p-6 text-black">
             <div className="flex gap-6 items-center mb-6">
               <img
@@ -33,7 +32,6 @@ export default function RegisterChoice() {
             </a>
           </div>
 
-          {/* Pelaku UMKM */}
           <div className="w-auto min-w-[320px] flex flex-col bg-giGreen rounded-xl shadow-2xl p-6 text-black">
             <div className="flex gap-6 items-center mb-6">
               <img
@@ -57,7 +55,6 @@ export default function RegisterChoice() {
           </div>
         </div>
 
-        {/* Link Login */}
         <div className="mt-14 text-center text-sm text-gray-600">
           Sudah punya akun?{" "}
           <a href="/login" className="text-giGreen font-semibold hover:underline">
